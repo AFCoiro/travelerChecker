@@ -321,8 +321,46 @@ margin-top: 50px;
 }
 
 /*CONTACTO*/
+.contactoMain{
+    background-image: url("./img/travelHero1.jpg");
+    background-size: cover;
+}
 
-.fomContact{
-    margin:150px;
-    background-color: blue;
+.contactoMain h2{
+    color: white;
+}
+.formContact{
+    margin: 150px auto auto auto;
+    background: rgb(0, 0, 255);
+    background: linear-gradient(0deg, rgba(0, 0, 255, 0.99) 0%, rgba(255, 102, 0, 1) 100%);
+    width: 60%;
+    height: auto;
+    padding: auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius:1rem;     
+     
+}
+
+form .formP{
+    margin: auto;
+    padding: 2rem;
+    color: black;
+}
+
+.texto_mensaje{
+width: 100%;
+    /* Ancho completo del contenedor */
+    padding: 10px;
+    /* Espaciado interno */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    border: 1px solid #ccc;
+    /* Borde del textarea */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-sizing: border-box;
+    /* Incluir padding y border en el ancho */
+    resize: vertical;
+    /* Permitir redimensionamiento vertical*/
 }
