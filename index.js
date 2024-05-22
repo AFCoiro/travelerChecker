@@ -25,7 +25,7 @@ fetch(apiUrl)
       console.log('Capital:', country.capital );
       console.log('Code:', country.cca3);
       console.log('Flag:', country.flag);
-      console.log('----------------------');
+      console.log('-----------------------');
     });
   }
 
