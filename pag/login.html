@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <header>
+        <div class="topHeader">
+            <a href="index.html"><img class="imgLogo" src="https://images.almundo.com/205/image/upload/q_auto/v1512592890/static/home/logospng/logo_Almundo_noviembre.png" alt="logo"></a>
+            <nav id="navbar" >
+                <a class="nav-link" href="/index.html">HOME</a>
+                <a class="nav-link" href="/pag/search.html">VIAJÁ</a>
+                <a class="nav-link" href="/pag/nosotros.html">NOSOTROS</a>
+                <a class="nav-link" href="/pag/contact.html">CONTACTO</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="login-section">
+            <h2>Iniciar Sesión</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Ingresar</button>
+                <p id="errorMessage" class="error-message"></p>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
