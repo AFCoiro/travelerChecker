@@ -46,3 +46,21 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+function toggleSection() {
+  var content = document.querySelector('.content');
+  var arrowImg = document.querySelector('.arrow-downImg');
+  var formSection = document.querySelector('.formSection');
+  
+  content.classList.toggle('active');
+  arrowImg.classList.toggle('rotate');
+
+  if (content.classList.contains('active')) {
+    // Si el contenido está activo, ajustamos el margen superior del formulario
+    formSection.style.marginTop = content.clientHeight + 'px';
+  } else {
+    // Si el contenido está inactivo, restauramos el margen superior del formulario
+    formSection.style.marginTop = '';
+  }
+}
+

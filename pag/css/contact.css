@@ -2,20 +2,75 @@
 .contactoMain {
   background-image: url("../../img/travelHero1.jpg");
   background-size: cover;
+  margin-top: 130px;
 }
 
-.contactoMain h2 {
-  color: white;
-} 
+
+
+
+/* Nosotros section*/
+.nosotrosSection h2 {
+  margin-top: 10px;
+  font-size: 2.5em;
+  color: #003366;
+  text-align:center;
+}
+
+.nosotrosSection{
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.nosotrosSection .content {
+  display: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.nosotrosSection .content.active {
+  display: flex;
+}
+.arrow-downImg{
+ align-items: center;
+}
+
+
+/* Form Section */
+.formSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.formSection h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formContact {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.formSection h2 {
+  font-size: 2.5em;
+  color: #FF5733;
+  align: center;
+}
 
 .formContact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 150px auto auto auto;
+  margin-top: 20px;
   background:rgb(211, 211, 211);
   width: 40%;
-  height: auto;
   padding: auto;
 
   border: 1px solid #ddd;
