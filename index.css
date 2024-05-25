@@ -3,6 +3,7 @@
     margin: 0%;
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #f2f4f5;
@@ -17,7 +18,7 @@ ul {
     list-style: none;
 }
 p{
-    color: #545962
+    color: #545962;
 }
 main{
     margin-top: 8vh;
@@ -71,7 +72,7 @@ footer{
 text-align: center;
   background-color: blue;
   position: absolute;
-  bottom: -150; /*ver esto q onda*/
+  bottom: 0;
   width: 100%;
   height:40vh; 
 }
@@ -115,6 +116,7 @@ padding-bottom: 30px;
 /*1*/
 /*MAIN--------------------------------------------------------------------------*/
 /*index seccion herobanner*/
+
 .secImg{
     display: flex;
     flex-direction: row;
@@ -145,6 +147,8 @@ padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 .arrow-downImg{
     width: 50px;
@@ -185,6 +189,8 @@ padding-bottom: 30px;
     display:flex;
     flex-direction: column;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     margin-top: 50px;
 }
@@ -217,7 +223,11 @@ padding-bottom: 30px;
 border-radius: 30px;
 margin-top: 50px;
 }
-
+#secImg h4{
+    padding-top: 32px;
+    text-align: center;
+    font-size: 32px;
+}
 /*section cards*/
 .sectionCards{
     display:flex;

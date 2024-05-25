@@ -1,5 +1,0 @@
-imagenes hero banner:
-
-https://content.api.news/v3/images/bin/c9d823d1ec6a0e1b4b7a192890d13838
-https://media.staticontent.com/media/pictures/7f02b003-f857-469e-be74-c4320f5a0db0/1920x250?op=TRUNCATE&enlarge=false&gravity=ce_-50_0&quality=80
-https://www.stewarttravelgroup.ca/_next/image?url=https%3A%2F%2Fttand.imgix.net%2Fhero-kensington-1709179919189.jpg&w=3840&q=75
