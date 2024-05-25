@@ -1,83 +1,51 @@
-[
-    {
-        "Pais":"1",
-        "precio":4000,
-        "id":1,
-        "imagen":"1.png",
-        "imagenTour1":"1.png",
-        "titulo":"Pleisteishon Z + Good of War + GTA V",
-        "descripcion":" Con tu consola Pleisteishon Z tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. PlayStation renovó las expectativas del mundo virtual con esta nueva consola y su gran rendimiento. Cuenta con una interfaz de usuario más rápida y fácil de navegar que en anteriores modelos. Además, podrás jugar durante horas desafiando a millones de contrincantes alrededor del mundo que esperan nuevos retos. Calidad de otro nivel: Se considera que esta consola es de las mejores dentro del mercado, dado que presenta una resolución de hasta 4K. Además, el control DualSense para PS5 combina estilo y tecnología para que jugar sea más cómodo e interactivo para todos sus jugadores. Adaptada a tus necesidades: Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB. Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición. Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás. Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables."
+{
+    "Argentina": {
+        "precio":400.000,
+      "descripcion": "Explora la vibrante ciudad de Buenos Aires y disfruta del famoso tango argentino. Visita las impresionantes cataratas del Iguazú y maravíllate con la belleza natural de la Patagonia."
     },
-    {
-        "Pais":"2",
-        "precio":4000,
-        "id":1,
-        "imagen":"1.png",
-        "imagenTour1":"1.png",
-        "titulo":"Pleisteishon Z + Good of War + GTA V",
-        "descripcion":" Con tu consola Pleisteishon Z tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. PlayStation renovó las expectativas del mundo virtual con esta nueva consola y su gran rendimiento. Cuenta con una interfaz de usuario más rápida y fácil de navegar que en anteriores modelos. Además, podrás jugar durante horas desafiando a millones de contrincantes alrededor del mundo que esperan nuevos retos. Calidad de otro nivel: Se considera que esta consola es de las mejores dentro del mercado, dado que presenta una resolución de hasta 4K. Además, el control DualSense para PS5 combina estilo y tecnología para que jugar sea más cómodo e interactivo para todos sus jugadores. Adaptada a tus necesidades: Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB. Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición. Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás. Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables."
+    "Brasil": {
+        "precio":400.000,
+      "descripcion": "Descubre la icónica estatua del Cristo Redentor en Río de Janeiro. Relájate en las playas de Copacabana e Ipanema, y adéntrate en la selva amazónica para una aventura inolvidable."
     },
-    {
-        "Pais":"3",
-        "precio":4000,
-        "id":1,
-        "imagen":"1.png",
-        "imagenTour1":"1.png",
-        "titulo":"Pleisteishon Z + Good of War + GTA V",
-        "descripcion":" Con tu consola Pleisteishon Z tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. PlayStation renovó las expectativas del mundo virtual con esta nueva consola y su gran rendimiento. Cuenta con una interfaz de usuario más rápida y fácil de navegar que en anteriores modelos. Además, podrás jugar durante horas desafiando a millones de contrincantes alrededor del mundo que esperan nuevos retos. Calidad de otro nivel: Se considera que esta consola es de las mejores dentro del mercado, dado que presenta una resolución de hasta 4K. Además, el control DualSense para PS5 combina estilo y tecnología para que jugar sea más cómodo e interactivo para todos sus jugadores. Adaptada a tus necesidades: Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB. Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición. Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás. Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables."
+    "Ecuador": {
+        "precio":400.000,
+      "descripcion": "Explora la belleza de las Islas Galápagos y su increíble biodiversidad. Pasea por las históricas calles de Quito y sube al volcán Cotopaxi para unas vistas espectaculares."
     },
-    {
-        "Pais":"4",
-        "precio":4000,
-        "id":1,
-        "imagen":"1.png",
-        "imagenTour1":"1.png",
-        "titulo":"Pleisteishon Z + Good of War + GTA V",
-        "descripcion":" Con tu consola Pleisteishon Z tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. PlayStation renovó las expectativas del mundo virtual con esta nueva consola y su gran rendimiento. Cuenta con una interfaz de usuario más rápida y fácil de navegar que en anteriores modelos. Además, podrás jugar durante horas desafiando a millones de contrincantes alrededor del mundo que esperan nuevos retos. Calidad de otro nivel: Se considera que esta consola es de las mejores dentro del mercado, dado que presenta una resolución de hasta 4K. Además, el control DualSense para PS5 combina estilo y tecnología para que jugar sea más cómodo e interactivo para todos sus jugadores. Adaptada a tus necesidades: Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB. Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición. Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás. Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables."
+    "España": {
+        "precio":400.000,
+      "descripcion": "Visita la majestuosa Alhambra en Granada y el emblemático Parque Güell en Barcelona. Disfruta de la deliciosa gastronomía española y relájate en las playas de la Costa del Sol."
     },
-    {   
-        "Pais":"5",
-        "precio":4000,
-        "id":1,
-        "imagen":"1.png",
-        "imagenTour1":"1.png",
-        "titulo":"Pleisteishon Z + Good of War + GTA V",
-        "descripcion":" Con tu consola Pleisteishon Z tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. PlayStation renovó las expectativas del mundo virtual con esta nueva consola y su gran rendimiento. Cuenta con una interfaz de usuario más rápida y fácil de navegar que en anteriores modelos. Además, podrás jugar durante horas desafiando a millones de contrincantes alrededor del mundo que esperan nuevos retos. Calidad de otro nivel: Se considera que esta consola es de las mejores dentro del mercado, dado que presenta una resolución de hasta 4K. Además, el control DualSense para PS5 combina estilo y tecnología para que jugar sea más cómodo e interactivo para todos sus jugadores. Adaptada a tus necesidades: Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB. Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición. Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás. Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables."
+    "Francia": {
+        "precio":400.000,
+      "descripcion": "Maravíllate con la Torre Eiffel en París y explora los encantadores viñedos de Burdeos. Sumérgete en la historia de la región de Normandía y relájate en la Riviera Francesa."
     },
-    {
-        "Pais":"6",
-        "precio":4000,
-        "id":1,
-        "imagen":"1.png",
-        "imagenTour1":"1.png",
-        "titulo":"Pleisteishon Z + Good of War + GTA V",
-        "descripcion":" Con tu consola Pleisteishon Z tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. PlayStation renovó las expectativas del mundo virtual con esta nueva consola y su gran rendimiento. Cuenta con una interfaz de usuario más rápida y fácil de navegar que en anteriores modelos. Además, podrás jugar durante horas desafiando a millones de contrincantes alrededor del mundo que esperan nuevos retos. Calidad de otro nivel: Se considera que esta consola es de las mejores dentro del mercado, dado que presenta una resolución de hasta 4K. Además, el control DualSense para PS5 combina estilo y tecnología para que jugar sea más cómodo e interactivo para todos sus jugadores. Adaptada a tus necesidades: Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB. Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición. Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás. Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables."
+    "Italia": {
+        "precio":400.000,
+      "descripcion": "Admira la majestuosidad del Coliseo en Roma y el arte renacentista en Florencia. Disfruta de la romántica Venecia y deléitate con la exquisita cocina italiana."
     },
-    {
-        "Pais":"6",
-        "precio":4000,
-        "id":1,
-        "imagen":"1.png",
-        "imagenTour1":"1.png",
-        "titulo":"Pleisteishon Z + Good of War + GTA V",
-        "descripcion":" Con tu consola Pleisteishon Z tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. PlayStation renovó las expectativas del mundo virtual con esta nueva consola y su gran rendimiento. Cuenta con una interfaz de usuario más rápida y fácil de navegar que en anteriores modelos. Además, podrás jugar durante horas desafiando a millones de contrincantes alrededor del mundo que esperan nuevos retos. Calidad de otro nivel: Se considera que esta consola es de las mejores dentro del mercado, dado que presenta una resolución de hasta 4K. Además, el control DualSense para PS5 combina estilo y tecnología para que jugar sea más cómodo e interactivo para todos sus jugadores. Adaptada a tus necesidades: Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB. Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición. Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás. Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables."
-    },   
-    {
-        "Pais":"7",
-        "precio":4000,
-        "id":1,
-        "imagen":"1.png",
-        "imagenTour1":"1.png",
-        "titulo":"Pleisteishon Z + Good of War + GTA V",
-        "descripcion":" Con tu consola Pleisteishon Z tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. PlayStation renovó las expectativas del mundo virtual con esta nueva consola y su gran rendimiento. Cuenta con una interfaz de usuario más rápida y fácil de navegar que en anteriores modelos. Además, podrás jugar durante horas desafiando a millones de contrincantes alrededor del mundo que esperan nuevos retos. Calidad de otro nivel: Se considera que esta consola es de las mejores dentro del mercado, dado que presenta una resolución de hasta 4K. Además, el control DualSense para PS5 combina estilo y tecnología para que jugar sea más cómodo e interactivo para todos sus jugadores. Adaptada a tus necesidades: Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB. Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición. Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás. Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables."
+    "Irlanda": {
+        "precio":400.000,
+      "descripcion": "Explora los verdes paisajes de la campiña irlandesa y visita los históricos castillos de Dublín. Disfruta de la música tradicional y la calidez de los pubs locales."
     },
-    {
-        "Pais":"8",
-        "precio":4000,
-        "id":1,
-        "imagen":"1.png",
-        "imagenTour1":"1.png",
-        "titulo":"Pleisteishon Z + Good of War + GTA V",
-        "descripcion":" Con tu consola Pleisteishon Z tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. PlayStation renovó las expectativas del mundo virtual con esta nueva consola y su gran rendimiento. Cuenta con una interfaz de usuario más rápida y fácil de navegar que en anteriores modelos. Además, podrás jugar durante horas desafiando a millones de contrincantes alrededor del mundo que esperan nuevos retos. Calidad de otro nivel: Se considera que esta consola es de las mejores dentro del mercado, dado que presenta una resolución de hasta 4K. Además, el control DualSense para PS5 combina estilo y tecnología para que jugar sea más cómodo e interactivo para todos sus jugadores. Adaptada a tus necesidades: Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB. Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición. Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás. Vas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables."
-        }
-]
+    "Indonesia": {
+        "precio":400.000,
+      "descripcion": "Relájate en las hermosas playas de Bali y descubre los templos antiguos de Yogyakarta. Sumérgete en la cultura local y disfruta de la biodiversidad de sus selvas tropicales."
+    },
+    "Japón": {
+        "precio":400.000,
+      "descripcion": "Visita el impresionante Monte Fuji y los templos históricos de Kioto. Disfruta de la modernidad de Tokio y deléitate con la cocina japonesa tradicional."
+    },
+    "Egipto": {
+        "precio":400.000,
+      "descripcion": "Explora las pirámides de Giza y los antiguos templos de Luxor. Navega por el río Nilo y descubre la rica historia de la civilización egipcia."
+    },
+    "Australia": {
+        "precio":400.000,
+      "descripcion": "Visita la Gran Barrera de Coral y la icónica Ópera de Sídney. Explora los paisajes únicos del Outback y disfruta de la vida silvestre australiana."
+    },
+    "Sudáfrica": {
+        "precio":400.000,
+      "descripcion": "Embárcate en un safari para ver los 'Big Five' y visita la histórica Ciudad del Cabo. Descubre la belleza natural del Parque Nacional Kruger y la Ruta Jardín."
+    }
+  }
+  

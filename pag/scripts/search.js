@@ -1,64 +1,108 @@
+// let containerCardTrip = document.getElementsByClassName("containerCardTrip");
+
+// // Consumiendo la API https://restcountries.com
+// const apiUrl = 'https://restcountries.com/v3.1/all';
+// const paisesSeleccionados = ['Argentina', 'Brasil', 'Ecuador', 'España', 'Francia', 'Italia', 'Irlanda', 'Indonesia', 'Japón', 'Egipto', 'Australia', 'Sudáfrica'];
+
+// async function procesaDatos() {
+//   try {
+//     const datos = await fetch(apiUrl).then(res => res.json());
+//     const paisesFiltrados = datos.filter(pais => paisesSeleccionados.includes(pais.translations.spa.common));
+//     filtroPaises(paisesFiltrados);
+//   } catch (error) {
+//     console.error("Error:", error);
+//   }
+// }
+
+// function filtroPaises(paises) {
+//   paises.forEach(pais => {
+//     let nombre = pais.translations.spa.common;
+//     let capital = pais.capital ? pais.capital[0] : 'Capital no disponible';
+
+//     let cardsTrip = document.createElement('div');
+//     cardsTrip.setAttribute('class', 'cardsTrip');
+//     cardsTrip.innerHTML = `
+//       <div>
+//         <img class="imgCardTrip" src="/img/paises/${nombre}.jpg" alt="Imagen de ${nombre}">
+//       </div>
+//       <a class="TextCardTrip" href="travels.html" target="_blank">
+//         <div>
+//           <h3>${pais.flag} ${nombre}</h3>
+//           <h4>Septiembre - 8 Noches</h4>
+//           <p>Vuelo + Hotel ${capital} all inclusive + 3 Excursiones por ${capital}</p>
+//         </div>
+//         <div>
+//           <h4>Precio por persona desde</h4>
+//           <h2>$1.887.237</h2>
+//           <p>Incluye impuestos, tasas y cargos</p>
+//         </div>
+//       </a>
+//     `;
+
+//     cardsTrip.querySelector('.TextCardTrip').addEventListener('click', function () {
+//       const selectedCountryInfo = {
+//         nombre: nombre,
+//         capital: capital,
+//         imagen: `/img/paises/${nombre}.jpg`
+//       };
+//       localStorage.setItem('selectedCountry', JSON.stringify(selectedCountryInfo));
+//     });
+
+//     containerCardTrip[0].append(cardsTrip);
+//   });
+// }
+
+// procesaDatos();
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   // Recuperar la información del país desde localStorage
+//   const storedCountryInfo = JSON.parse(localStorage.getItem('selectedCountry'));
+
+//   if (storedCountryInfo) {
+//     const mainTravel = document.getElementById('mainTravel');
+//     mainTravel.innerHTML = `
+//       <h1>Tour por ${storedCountryInfo.nombre} durante 3 días + vuelo incluido</h1>
+//       <img src="${storedCountryInfo.imagen}" alt="Imagen de ${storedCountryInfo.nombre}">
+//       <p>Capital: ${storedCountryInfo.capital}</p>
+//     `;
+
+//     fetch('../../tours.json')
+//       .then(response => response.json())
+//       .then(data => {
+//         if (data[storedCountryInfo.nombre]) {
+//           const additionalContent = data[storedCountryInfo.nombre].descripcion;
+//           mainTravel.insertAdjacentHTML('beforeend', `
+//             <p>${additionalContent}</p>
+//           `);
+//           console.log("mi contenido"+additionalContent);
+//         }
+//       })
+//       .catch(error => {
+//         console.error("Errorjtjtjtjtjtjtjtj adicional:", error);
+//       });
+
+//     console.log('Información del país recuperada de localStorage:', storedCountryInfo); // Mensaje de consola
+//   } else {
+//     console.error("errorrrrrrrrrrrrrrrrrrrrrrrrr localStorage.");
+//   }
+// });
+
+
 let containerCardTrip = document.getElementsByClassName("containerCardTrip");
-
-// Consumiendo la Api https://restcountries.com
 const apiUrl = 'https://restcountries.com/v3.1/all';
-const paisesSeleccionados = ['Argentina','Brazil','Spain', 'France', 'Italy','Ireland','Indonesia','Japan','Egipt'];
+const paisesSeleccionados = ['Argentina', 'Brasil', 'Ecuador', 'España', 'Francia', 'Italia', 'Irlanda', 'Indonesia', 'Japón', 'Egipto', 'Australia', 'Sudáfrica'];
 
-const jsonCont = '../tours.json';
+async function ProcesarDatos() {
+  try {
+    const datos = await fetch(apiUrl);
+    const datosJson = await datos.json();
 
+     const paisesFiltrados = datosJson.filter(pais => paisesSeleccionados.includes(pais.translations.spa.common));
 
-fetch(apiUrl)
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Hubo un problema al realizar la solicitud.');
-    }
-    return response.json();
-  })
-  .then(data => {
-    const paisesFiltrados = data.filter(country => paisesSeleccionados.includes(country.name.common));
-    mostrarPaisesSeleccionados(paisesFiltrados);
-  })
-  .catch(error => {
-    console.error('Hubo un problema con la solicitud fetch:', error);
-  });
-
-  function mostrarPaisesSeleccionados(paisesData) {
-    paisesData.forEach(country => {
-
-        let cardsTrip = document.createElement('div')
-        cardsTrip.setAttribute('class','cardsTrip')
-          //cardsTrip.setAttribute('id',`${producto.id}`)
-          cardsTrip.innerHTML = `
-          <div>
-          <img class="imgCardTrip" src="https://images.almundo.com/205/image/fetch/fl_progressive,q_auto,w_385,h_240,f_jpg/https://almundo-com-res.cloudinary.com/image/upload/v1552411614/BANCO%20DE%20IMAGENES%202019/Punta%20Cana/ishan-seefromthesky-193028-unsplash.jpg" alt="">
-      </div> 
-      <a class="TextCardTrip" href="travels.html" target="_blank">
-          <div>
-              <h3>${country.flag} ${country.name.common}</h3>
-              <h4>Septiembre - 8 Noches</h4>
-              <p>Vuelo + Hotel ${country.capital } all inclusive + 3 Excursioines por ${country.capital }</p>
-          </div>
-          <div>
-              <h4>Precio por persona desde</h4>
-              <h2>$1.887.237</h2>
-              <p>Incluye impuestos, tazas y cargos</p>
-          </div>
-      </a>           
-          `;
-
-          containerCardTrip[0].append(cardsTrip);
-
-
-
-      // Mostrar el nombre del país y su capital
-      console.log('País:', country.name.common);
-      console.log('Capital:', country.capital );
-      console.log('Code:', country.cca3);
-      console.log('Flag:', country.flag);
-      console.log('-----------------------');
-    });
+    console.log(paisesFiltrados);
+  } catch (error) {
+    console.error("*****ERROR*****: "+error);
   }
-
-
-
-  
+}
+ProcesarDatos();

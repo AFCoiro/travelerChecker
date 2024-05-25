@@ -12,12 +12,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../index.html">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./css/travels.css">
     <title>Al Mundi</title>
 </head>
 <body>
     <header>
-        <div class="topHeader container">
+        <div class="topHeader containerWidth">
             <a href="../index.html"><img class="imgLogo" src="https://images.almundo.com/205/image/upload/q_auto/v1512592890/static/home/logospng/logo_Almundo_noviembre.png" alt="logo"></a>
             <h1 class="h1Seo" hidden>Al Mundi, tu lugar para buscar viajes por el mundo</h1>
             <div><a href="#">Mi cuenta</a></div>
@@ -29,107 +30,59 @@
             <a class="nav-link" href="contact.html">CONTACTO</a>
         </nav>
     </header>
-    <main>
-        <form action="submeter-formulario.php" method="post" class="fomContact">       
-
-            <p>
-              <label for="nombre" class="colocar_nombre">Nombre
-                <span class="obligatorio">*</span>
-              </label>
-                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-            </p>
-          
-            <p>
-              <label for="email" class="colocar_email">Email
-                <span class="obligatorio">*</span>
-              </label>
-                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-            </p>
+    <main id="mainTravel">
         
-            <p>
-              <label for="telefone" class="colocar_telefono">Teléfono
-              </label>
-                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-            </p>    
-          
-            <p>
-              <label for="website" class="colocar_website">Sitio web
-              </label>
-                <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
-            </p>    
-          
-            <p>
-              <label for="asunto" class="colocar_asunto">Asunto
-                <span class="obligatorio">*</span>
-              </label>
-                <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-            </p>    
-          
-            <p>
-              <label for="mensaje" class="colocar_mensaje">Mensaje
-                <span class="obligatorio">*</span>
-              </label>                     
-                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                            </p>                    
-          
-            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-
-            <p class="aviso">
-              <span class="obligatorio"> * </span>los campos son obligatorios.
-            </p>          
-        
-      </form>
 
     </main>
     <footer>
-      <section class="redesFooter">
-          <a href="index.html" ><img class="imgLogoFooter" src="https://images.almundo.com/205/image/upload/q_auto/v1512592890/static/home/logospng/logo_Almundo_noviembre.png" alt="logo"></a>
-
-          <div>
-              <ul class="listSocial">
-                  <li class="">
-                      <a class="linkSocial" href="https://www.instagram.com/" target="_blank" rel="noopener" title="Visit our instagram page" aria-label="Visit our instagram page">
-                      <img class="linkSocialImg" src="./img/red-ig.png" alt="instagram icon"></a>
-                  </li>
-                  <li>
-                      <a class="linkSocial" href="https://www.facebook.com/" target="_blank" rel="noopener" title="Visit our facebook page" aria-label="Visit our facebook page">
-                      <img class="linkSocialImg" src="./img/red-fb.png" alt="facebook icon"></a>
-                  </li>
-                  <li>
-                      <a class="linkSocial" href="https://www.youtube.com/" target="_blank" rel="noopener" title="Visit our youtube page" aria-label="Visit our youtube page">
-                      <img class="linkSocialImg" src="./img/red-yt.png" alt="youtube icon"></a>
-                  </li>
-                  <li>
-                      <a class="linkSocial" href="https://twitter.com" target="_blank" rel="noopener" title="Visit our twitter page" aria-label="Visit our twitter page">
-                      <img class="linkSocialImg" src="./img/red-x.png" alt="twitter icon"></a>
-                  </li>
+        <section class="redesFooter">
+            <a href="../index.html" ><img class="imgLogoFooter" src="https://images.almundo.com/205/image/upload/q_auto/v1512592890/static/home/logospng/logo_Almundo_noviembre.png" alt="logo"></a>
+  
+            <div>
+                <ul class="listSocial">
+                    <li class="">
+                        <a class="linkSocial" href="https://www.instagram.com/" target="_blank" rel="noopener" title="Visit our instagram page" aria-label="Visit our instagram page">
+                        <img class="linkSocialImg" src="./img/red-ig.png" alt="instagram icon"></a>
+                    </li>
+                    <li>
+                        <a class="linkSocial" href="https://www.facebook.com/" target="_blank" rel="noopener" title="Visit our facebook page" aria-label="Visit our facebook page">
+                        <img class="linkSocialImg" src="./img/red-fb.png" alt="facebook icon"></a>
+                    </li>
+                    <li>
+                        <a class="linkSocial" href="https://www.youtube.com/" target="_blank" rel="noopener" title="Visit our youtube page" aria-label="Visit our youtube page">
+                        <img class="linkSocialImg" src="./img/red-yt.png" alt="youtube icon"></a>
+                    </li>
+                    <li>
+                        <a class="linkSocial" href="https://twitter.com" target="_blank" rel="noopener" title="Visit our twitter page" aria-label="Visit our twitter page">
+                        <img class="linkSocialImg" src="./img/red-x.png" alt="twitter icon"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="menuFooter">
+            <div>
+                <4> Atención al cliente </4>
+                <h5> 0810.220.1309 </h5>
+                <p> Lunes a viernes de 10 a 21 h <br> Sábados de 10 a 16 h </p>
+            </div>
+  
+            <div>
+                <h4> Ventas </h4>
+                <h5> 0810.220.1031 </h5>
+                <a href="#wapp"><h5> 0810.220.1031 </h5></a>
+                <p> Lunes a domingos y feriados de 9 a 23 h </p>
+            </div>
+            <div>
+                <h4>Mapa del sitio</h4>
+                <ul>
+                  <li><a href="/index.html">Home</a></li>
+                  <li><a href="/pag/session.html">Viajá</a></li>
+                  <li><a href="/pag/">Contacto</a></li>
+                  <li><a href="/pag/session.html">Iniciar sesión</a></li>
               </ul>
-          </div>
-      </section>
-      <section class="menuFooter">
-          <div>
-              <4> Atención al cliente </4>
-              <h5> 0810.220.1309 </h5>
-              <p> Lunes a viernes de 10 a 21 h <br> Sábados de 10 a 16 h </p>
-          </div>
-
-          <div>
-              <h4> Ventas </h4>
-              <h5> 0810.220.1031 </h5>
-              <a href="#wapp"><h5> 0810.220.1031 </h5></a>
-              <p> Lunes a domingos y feriados de 9 a 23 h </p>
-          </div>
-          <div>
-              <h4>Mapa del sitio</h4>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pag/search.html">Viajá</a></li>
-                <li><a href="pag/contact.html">Contacto</a></li>
-                <li><a href="/pag/session.html">Iniciar sesión</a></li>
-            </ul>
-          </div>
-      </section>
-  </footer>
-
+            </div>
+        </section>
+    </footer>
+ <script src="./scripts/search.js"></script>
 </body>
 </html>
