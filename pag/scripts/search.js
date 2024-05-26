@@ -3,7 +3,7 @@ let containerCardTrip = document.getElementsByClassName("containerCardTrip");
 //consumiendo api https://restcountries.com/
 const apiUrl = 'https://restcountries.com/v3.1/all';
 const paisesSeleccionados = ['Argentina', 'Brasil', 'Ecuador', 'España', 'Francia', 'Italia', 'Irlanda', 'Indonesia', 'Japón', 'Egipto', 'Australia', 'Sudáfrica'];
-const jsonUrl = '../../tours.json';
+const jsonUrl = './../tours.json';
 
 async function ProcesarDatos() {
   try {
