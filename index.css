@@ -67,14 +67,16 @@ header{
     font-weight: 800;
 }
 
-/*Footer AREGLARLO--------------------------------------------------*/
+/*Footer --------------------------------------------------*/
 footer{
 text-align: center;
   background-color: blue;
   position: absolute;
-  bottom: 0;
   width: 100%;
-  height:40vh; 
+  padding: 40px 20px;
+  color:white;
+  margin-top: auto; /* Ensure footer stays at the bottom */
+
 }
 .redesFooter{
 height: 150px;
@@ -111,8 +113,11 @@ padding-bottom: 30px;
 .menuFooter p, .menuFooter a{
     color: #ffffff;
     font-weight: 300;
-
 }
+.menuFooter li a{
+    color: white;
+}
+
 /*1*/
 /*MAIN--------------------------------------------------------------------------*/
 /*index seccion herobanner*/
@@ -421,53 +426,5 @@ button:hover {
     color: red;
     text-align: center;
     margin-top: 10px;
-}
-
-footer {
-    background-color: blue;
-    width: 100%;
-    padding: 40px 20px;
-    color: white;
-    text-align: center;
-    margin-top: auto; /* Ensure footer stays at the bottom */
-}
-
-.redesFooter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 30px;
-}
-
-.imgLogoFooter {
-    width: 128px;
-}
-
-.linkSocialFootImg {
-    width: 30px;
-    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(183deg) brightness(106%) contrast(101%);
-}
-
-.menuFooter {
-    display: flex;
-    justify-content: space-around;
-    border-top: 1px solid white;
-    padding-top: 30px;
-}
-
-.menuFooter h4 {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.menuFooter h5 {
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.menuFooter p,
-.menuFooter a {
-    color: #ffffff;
-    font-weight: 300;
 }
 
