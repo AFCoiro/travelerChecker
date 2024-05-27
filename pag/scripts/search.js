@@ -58,7 +58,7 @@ function fnMostrarPaises(paisA, paisJ) {
           capital: capital,
           bandera: bandera,
           mapa: mapa,
-          imagen: `/img/paises/${country}.jpg`,
+          imagen: `./../img/paises/${country}.jpg`,
           descripcion: paisInfo.descripcion,
           precio: paisInfo.precio,
           titulo: paisInfo.titulo,
