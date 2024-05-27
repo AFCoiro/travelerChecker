@@ -35,7 +35,7 @@ function fnMostrarPaises(paisA, paisJ) {
     cardsTrip.setAttribute('class', 'cardsTrip');
     cardsTrip.innerHTML = `
         <div>
-          <img class="imgCardTrip" src="./../../img/paises/${country}.jpg" alt="Imagen de ${country}">
+          <img class="imgCardTrip" src="./../img/paises/${country}.jpg" alt="Imagen de ${country}">
         </div>
         <a class="linkCardTrip" href="travels.html" target="_blank">
           <div>
