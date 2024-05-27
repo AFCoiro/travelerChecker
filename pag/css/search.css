@@ -8,9 +8,8 @@
     background-size: cover;
     text-align: center;
 }
-.heroBanner2 a{
+.heroBanner2 h2{
     color: #ffffff;
-    text-shadow: 1px 1px 3px black;
 }
 .sectionCardsTrip h2:first-child{
     width: 100%;

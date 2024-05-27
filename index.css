@@ -138,8 +138,8 @@ padding-bottom: 30px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: "Permanent Marker", cursive;
     color:#f74008;
+    text-shadow: 1px 1px 3px black;
 }
 .arrow-down{
     width: 100%;

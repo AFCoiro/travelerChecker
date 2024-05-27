@@ -4,7 +4,7 @@ let containerCardTrip = document.getElementsByClassName("containerCardTrip");
 const apiUrl = 'https://restcountries.com/v3.1/all';
 const paisesSeleccionados = ['Argentina', 'Brasil', 'Ecuador', 'España', 'Francia', 'Italia', 'Irlanda', 'Indonesia', 'Japón', 'Egipto', 'Australia', 'Sudáfrica'];
 const jsonUrl = './../tours.json';
-
+/*llamado a una api externa y a un json interno*/
 async function ProcesarDatos() {
   try {
     const datosApi = await fetch(apiUrl);
@@ -22,7 +22,7 @@ async function ProcesarDatos() {
   }
 }
 ProcesarDatos();
-
+/*los datos guardados los usamos para mostrarlos en las cards de productos*/
 function fnMostrarPaises(paisA, paisJ) {
   paisA.forEach(pais => {
     let country = pais.translations.spa.common;
@@ -35,7 +35,7 @@ function fnMostrarPaises(paisA, paisJ) {
     cardsTrip.setAttribute('class', 'cardsTrip');
     cardsTrip.innerHTML = `
         <div>
-          <img class="imgCardTrip" src="../img/paises/${country}.jpg" alt="Imagen de ${country}">
+          <img class="imgCardTrip" src="./../../img/paises/${country}.jpg" alt="Imagen de ${country}">
         </div>
         <a class="linkCardTrip" href="travels.html" target="_blank">
           <div>
@@ -51,7 +51,7 @@ function fnMostrarPaises(paisA, paisJ) {
         </a>
       `;
 
-
+/*guardo la informacion de la card donde se hizo click en el local storage*/
       cardsTrip.querySelector('.linkCardTrip').addEventListener('click', function () {
         const infoPaisGuardado = {
           nombre: country,
@@ -71,7 +71,7 @@ function fnMostrarPaises(paisA, paisJ) {
       containerCardTrip[0].append(cardsTrip);
     });
   }
-
+/*lo guardado en LS lo uso para que mediante DOMContentLoaded lo  muestre en la pagina travels.html */
 document.addEventListener('DOMContentLoaded', function() {
   const infoPaisesGuardados = JSON.parse(localStorage.getItem('infoPais'));
 
