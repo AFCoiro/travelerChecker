@@ -69,7 +69,7 @@
 }
 .botonContacto{
     align-self: center;
-    background-color: blue;
+    background-color: #003366;
     border-radius: 12px;
     box-shadow: 0.5px 0.5px 0.5px rgb(206, 206, 206);
     transition:  box-shadow 1s ;
