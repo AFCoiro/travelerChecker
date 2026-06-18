@@ -1,4 +1,4 @@
-# <h1 align="center">TravelerChecker (work in progress)</h1> 
+# <h1 align="center">TravelerChecker</h1> 
 <br>
 
 # 📝 Description
